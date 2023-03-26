@@ -15,10 +15,7 @@ public class PlayerController : MonoBehaviour
             transform.position = movePos;
             gameObject.transform.forward = move;
         }
-        if (Input.GetKeyDown(KeyCode.R))
-        {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-        }
+
         if (Input.GetKey(KeyCode.F))
         {
             obj.SetActive(true);

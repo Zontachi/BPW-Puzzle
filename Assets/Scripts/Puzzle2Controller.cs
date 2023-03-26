@@ -2,12 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class Puzzle2Controller : MonoBehaviour
 {
     [SerializeField] private int iTotalRuneValue, iRequiredRuneValue;
     [SerializeField] private GameObject Pillars;
-    private bool bFinished;
     private GameObject Player;
     [SerializeField] TMP_Text m_TextComponent, g_TextComponent;
 
@@ -30,12 +30,17 @@ public class Puzzle2Controller : MonoBehaviour
         if (iTotalRuneValue == iRequiredRuneValue)
         {
             Destroy(Pillars);
-            bFinished = true;
         }
 
-        if (iTotalRuneValue > iRequiredRuneValue && bFinished == false)
+        if (iTotalRuneValue > iRequiredRuneValue)
         {
+            Destroy(Player);
             g_TextComponent.text = "You overshot! Press R to reset.";
+        }
+
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
     }
 }
