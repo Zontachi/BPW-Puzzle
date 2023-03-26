@@ -348,7 +348,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   player1: {fileID: 0}
-  player2: {fileID: 0}
 --- !u!64 &210059120
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -563,7 +562,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   player1: {fileID: 0}
-  player2: {fileID: 0}
 --- !u!64 &256319242
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1261,7 +1259,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   player1: {fileID: 0}
-  player2: {fileID: 0}
 --- !u!64 &478117657
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1501,7 +1498,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   player1: {fileID: 0}
-  player2: {fileID: 0}
 --- !u!64 &511411177
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1622,7 +1618,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   player1: {fileID: 0}
-  player2: {fileID: 0}
 --- !u!64 &521592102
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1697,7 +1692,6 @@ GameObject:
   m_Component:
   - component: {fileID: 528667213}
   - component: {fileID: 528667214}
-  - component: {fileID: 528667215}
   m_Layer: 0
   m_Name: Puzzle Runes
   m_TagString: Untagged
@@ -1763,21 +1757,6 @@ MonoBehaviour:
   Pillars: {fileID: 931778650}
   m_TextComponent: {fileID: 896298158}
   g_TextComponent: {fileID: 1968361169}
---- !u!114 &528667215
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 528667212}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e7acc1438a0ad224ca2c6458df73a643, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_TextComponent: {fileID: 896298158}
-  Pillars: {fileID: 931778650}
-  startingTime: 30
 --- !u!1 &571200356
 GameObject:
   m_ObjectHideFlags: 0
@@ -1834,7 +1813,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   player1: {fileID: 0}
-  player2: {fileID: 0}
 --- !u!64 &571200359
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2059,7 +2037,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   player1: {fileID: 0}
-  player2: {fileID: 0}
 --- !u!64 &639078923
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2273,7 +2250,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   player1: {fileID: 0}
-  player2: {fileID: 0}
 --- !u!64 &641281412
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2660,7 +2636,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   player1: {fileID: 0}
-  player2: {fileID: 0}
 --- !u!1 &773227416
 GameObject:
   m_ObjectHideFlags: 0
@@ -2717,7 +2692,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   player1: {fileID: 0}
-  player2: {fileID: 0}
 --- !u!64 &773227419
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2838,7 +2812,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   player1: {fileID: 0}
-  player2: {fileID: 0}
 --- !u!64 &877275176
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3626,7 +3599,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   player1: {fileID: 0}
-  player2: {fileID: 0}
 --- !u!64 &1113684336
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3810,7 +3782,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   player1: {fileID: 0}
-  player2: {fileID: 0}
 --- !u!64 &1184080281
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4199,7 +4170,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   player1: {fileID: 0}
-  player2: {fileID: 0}
 --- !u!64 &1233750361
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4339,7 +4309,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   player1: {fileID: 0}
-  player2: {fileID: 0}
 --- !u!64 &1265163114
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4460,7 +4429,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   player1: {fileID: 0}
-  player2: {fileID: 0}
 --- !u!64 &1269688426
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4591,7 +4559,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   player1: {fileID: 0}
-  player2: {fileID: 0}
 --- !u!64 &1376790954
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4914,7 +4881,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   player1: {fileID: 0}
-  player2: {fileID: 0}
 --- !u!64 &1582067083
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5035,7 +5001,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   player1: {fileID: 0}
-  player2: {fileID: 0}
 --- !u!64 &1583902388
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5175,7 +5140,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   player1: {fileID: 0}
-  player2: {fileID: 0}
 --- !u!64 &1605742173
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5301,7 +5265,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   player1: {fileID: 0}
-  player2: {fileID: 0}
 --- !u!64 &1637675819
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5911,7 +5874,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   player1: {fileID: 0}
-  player2: {fileID: 0}
 --- !u!64 &1841540819
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6032,7 +5994,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   player1: {fileID: 0}
-  player2: {fileID: 0}
 --- !u!64 &1864225082
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6236,7 +6197,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   player1: {fileID: 0}
-  player2: {fileID: 0}
 --- !u!1 &1914243482
 GameObject:
   m_ObjectHideFlags: 0
@@ -6616,7 +6576,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   player1: {fileID: 0}
-  player2: {fileID: 0}
 --- !u!64 &1989632205
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6842,7 +6801,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   player1: {fileID: 0}
-  player2: {fileID: 0}
 --- !u!1 &2049841525
 GameObject:
   m_ObjectHideFlags: 0
