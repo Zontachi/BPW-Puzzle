@@ -9,7 +9,9 @@ public class Puzzle2Controller : MonoBehaviour
     [SerializeField] private int iTotalRuneValue, iRequiredRuneValue;
     [SerializeField] private GameObject Pillars;
     private GameObject Player;
+    private bool bFinished;
     [SerializeField] TMP_Text m_TextComponent, g_TextComponent;
+    [SerializeField] private AudioSource runeSoundEffect, pillarSoundEffect;
 
     // Start is called before the first frame update
     void Start()
@@ -22,6 +24,7 @@ public class Puzzle2Controller : MonoBehaviour
     public void IncreaseVal(int iVal)
     {
         iTotalRuneValue += iVal;
+        runeSoundEffect.Play();
     }
 
     // Update is called once per frame
@@ -31,9 +34,11 @@ public class Puzzle2Controller : MonoBehaviour
         m_TextComponent.text = "Current total: " + iTotalRuneValue.ToString() + "/" + iRequiredRuneValue.ToString();
 
         //Destroy the pillars blocking the exit when the value is correct
-        if (iTotalRuneValue == iRequiredRuneValue)
+        if (iTotalRuneValue == iRequiredRuneValue && bFinished == false)
         {
             Destroy(Pillars);
+            bFinished = true;
+            pillarSoundEffect.Play();
         }
 
         //Destroy the player and update the HUD if the player overshoots his rune value
