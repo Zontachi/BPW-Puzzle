@@ -5,6 +5,7 @@ public class PlayerController : MonoBehaviour
 {
     [SerializeField] private GameObject obj;
     private float playerSpeed = 7.0f;
+
     void Update()
     {
         //Read player input and assign the values to a new vector
